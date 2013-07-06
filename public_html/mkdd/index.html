@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/">
+<html>
+  <head>
+    <title>STWing Mario Kart Tournament</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <script src="main.js" language="javascript" type="text/javascript"></script>
+  </head>
+
+  <body onload="mk.init()">
+
+    <ul class="mkdd-vitals">
+      <li>Time-<br>Saturday<br>Feb. 11th @ 7PM</li>
+      <li>Place-<br>1938 Lounge<br>(in KCECH)</li>
+      <li>Game-<br>Mario Kart Double Dash</li>
+      <li>Format-150cc, no Mirror Mode</li>
+    </ul>
+
+    <div class="mkdd-sidebar">
+      <ul class="mkdd-tabs" id="tabs">
+	<li><a href="#main">Main</a></li>
+	<li><a href="#rules">Rules</a></li>
+	<li><a href="#signup">Sign Up!</a></li>
+	<li><a href="#where">How to Get Here</a></li>
+	<li><a href="http://www.stwing.upenn.edu">What is STWing?</a></li>
+      </ul>
+    </div>
+
+    <div class="mkdd-tab" id="main">
+      <img src="tourney.jpg" class="mkdd-banner" alt="banner"></img>
+      <div class="mkdd-welcome">
+	Welcome to the webpage for the 2012 STWing Mario Kart Tournament! To navigate this website, use the tabs at the top of the page.
+      </div>
+    </div>
+    <div class="mkdd-tab-hidden" id="rules">
+      <h3>Competition Rules</h3>
+      <ul>
+	<li>All races will be Mario Kart Double Dash, 150cc, no mirror mode.</li>
+	<li>Items will be set to Recommended.</li>
+	<li>In each round of the tournament, the remaining participants will be
+	  divided into groups of 3 and 4. Each group will play one cup of races, which will be
+	  determined ahead of time by the tournament host.</li>
+	<li>The top 2 racers from each group will advance to the next round.</li>
+	<li>The top 2 will be determined by the following point system. After each race,
+	  each racer will be awarded points equal to his or her placing in that race. For example,
+	  the 1st place racer gets 1 point, 2nd place gets 2 points, and so on and so forth.</li>
+	<li>The 2 racers with the lowest point totals after all 4 races are complete will advance to
+	  the next round. In the event of a tie, a tiebreaking race will be held between the
+	  tied racers on a course chosen by the tournament director.
+	</li>
+	<li>Point keeping cards will be used by the tournament director to keep track of points accumulated after each race.</li>
+	<li>Once each group finishes their races, the remaining players will be re-divided into new groups of 3 and 4.</li>
+	<li>This process repeats itself until only 4 racers remain. Then these racers will play through the Special Cup once.
+	  The champion and runner-up of the tournament will be decided by each racer's point total after these 4 races.</li>
+	<li>Additional battle mode tournaments will be held following the main event depending on demand.</li>
+	</ul>
+
+	<h3>Administrative Rules</h3>
+	<ul>
+	<li>Player may use their own Gamecube controllers.</li>
+	<li>Player slot number will be determined by drawing straws. Character selection for each player's first character will go in order according to player slot number.</li>
+	<li>Once each player has chosen a character, selection for the second character will be done in reverse order (so the 
+	  player who chose last now gets to choose his or her second character first).</li>
+	<li>If a player is absent when his or her group is scheduled to play, the next group will be scheduled instead. If all other groups have
+	  already played, and that player fails to appear after 5 minutes, he or she will be disqualified.</li>
+	<li>Intentionally disrupting the game by pausing, distracting other players, etc, will result in a warning, followed by
+	  disqualification upon second offense.</li>
+	<li>If the size of a group falls below 3 because of disqualifications, then the remaining players in the group will
+	  automatically advance.</li>
+	</ul>
+    </div>
+
+    <div class="mkdd-tab-hidden" id="signup">
+      <table>
+	<form method=post enctype="multipart/form-data" action="upload_handler.php" name="upload_form" onSubmit = "return mk.validate();">
+	  <p>
+	    <tr>
+	      <td colspan=2><h3>Signup Form</h3></td>
+	    </tr>
+	    <tr>
+	      <td>Name (Last, First): </td>
+	      <td><input type=text name=name></td>
+	    </tr>
+	    <tr>
+	      <td>E-mail:</td>
+	      <td> <input type=text name=email></td>
+	    </tr>
+	    <tr>
+	    <td><input class="mkdd-button" type="submit" value="Submit"><br/><br/>
+	    </tr>
+	</form>
+      </table>
+
+	<br>Please complete the above form and hit submit if you plan on participating in the Mario Kart tournament.
+	<br>On the day of the tournament, please arrive before 7:15pm to check in for the tournament to verify you are here. You may
+	also sign up at this time if you haven't already. Matches are expected to start at 7:30pm, so if you haven't signed up and checked in by then, you will be unable to do so once matches start.
+	<br>
+	<br>Feel free to send any questions to <a href="mailto:kevinxu@stwing.upenn.edu">kevinxu@stwing.upenn.edu</a>.
+    </div>
+
+    <div class="mkdd-tab-hidden" id="lend">
+      <table>
+	<form method=post enctype="multipart/form-data" action="volunteer_handler.php" name="lend_form" onSubmit = "return mk.lendValidate();">
+	  <p>
+	    <tr>
+	      <td colspan=2><h3>Equipment Lending Form</h3></td>
+	    </tr>
+	    <tr>
+	      <td>Name (Last, First): </td>
+	      <td><input type=text name=name></td>
+	    </tr>
+	    <tr>
+	      <td>E-mail:</td>
+	      <td> <input type=text name=email></td>
+	    </tr>	
+	    <tr colspan=2>
+	      <td><h3>List of equipment you can lend:</h3> </td>
+	    </tr>
+	    <tr>
+	      <td colspan=2> <textarea name="equip" cols="56" rows="2" wrap="VIRTUAL"></textarea>
+	      </td>
+	    </tr>
+	    <br/>
+	    <tr>
+	      <td><input class="mkdd-button" type="submit" value="Submit"><br/><br/>
+	    </tr>
+	</form>
+      </table>
+
+      Please complete the above form and hit submit if you are willing to lend equipment for the tourney. We need as much extra equipment as possible! :)
+      <br>We are looking for anyone that is willing to lend TVs, Nintendo Gamecubes/Wiis, Wiimotes, Gamecube Controllers, and copies of Mario Kart Double Dash.
+      <br>Please bring your equipment on the day of the tournament sometime between 6-6:50pm to the 1938 lounge, and we will tag your equipment before setting it up.
+      <br>
+      <br>When you need to leave, please see me and let me know that you are leaving (and remember to take your equipment with you).
+      <br>Feel free to send any questions to <a href="mailto:kevinxu@stwing.upenn.edu">kevinxu@stwing.upenn.edu</a>.
+
+    </div>
+
+    <div class="mkdd-tab-hidden" id="where">
+      Kings Court English College House (KCECH) is an undergraduate dormitory on the campus of the University of Pennsylvania. It's address is 3465 Sansom St,
+      Philadelphia PA, 19104.
+      <br>
+      The entrance is between 36th and 34th Street on Sansom, and it is closer to 36th than it is to 34th.
+      <br>
+      <br/>
+      Since it is a Penn dorm, non-resident Penn students need their Penn Cards to gain access to the building. Non-resident Penn students without a Penn Card 
+      and non-Penn students need a photo ID and must be signed in by a resident to gain access to the building. 
+      <br>
+      Once you are in the building, walk down the hall, up the stairs, make a right, and you should see the 1938 Lounge up ahead (it has a large glass wall).
+      <br/>
+      <br/>
+      	<a class="mkdd-larger-map" href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=kings+court+english+college+house&amp;sll=39.940943,-75.15844&amp;sspn=0.036984,0.090895&amp;ie=UTF8&amp;hq=kings+court+english+college+house&amp;hnear=&amp;ll=39.954281,-75.194071&amp;spn=0.002208,0.005681&amp;z=14&amp;iwloc=A&amp;cid=5028104649282879393">View On Google Maps</a>
+      <br/>
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,122 @@
+body {
+	background-image: url('cluster.png');
+	color: #333333;
+	font-family: "Verdana", sans-serif;
+	font-size: 18px;
+}
+
+a:link {
+	color: #FF5555;
+}
+
+a:visited {
+	color: #FF3333;
+}
+
+table.balloon-gallery {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 50px;
+	width: 300px;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul.balloon-links {
+	display: inline;
+	list-style-type: none;
+	margin: 0em;
+	padding: 0em;
+}
+
+ul.balloon-links li {
+	background-color: #555577;
+	bottom: 10px;
+	float: left;
+	height: 80px;
+	right: 60px;
+	line-height: 80px;
+	position: relative;
+	text-align: center;
+	width: 80px;
+}
+
+ul.balloon-links li.raised {
+	bottom: 30px;
+}
+
+ul.balloon-links li a {
+	background-image: url('red-balloon.png');
+    color: #FFFFFF;
+	display: block;
+	font-weight: bold;
+	height: 80px;
+	text-decoration: none;
+}
+
+ul.balloon-links li a.red {
+	background-image: url('red-balloon.png');
+}
+
+
+ul.balloon-links li a.orange {
+	background-image: url('orange-balloon.png');
+}
+
+ul.balloon-links li a.green {
+	background-image: url('green-balloon.png');
+}
+
+ul.balloon-links li a.blue {
+	background-image: url('blue-balloon.png');
+}
+
+ul.balloon-links li a:hover.red {
+	background-image: url('red-balloon-glow.png');
+	color: #000000;
+}
+
+ul.balloon-links li a:hover.orange {
+	background-image: url('orange-balloon-glow.png');
+	color: #000000;
+}
+
+ul.balloon-links li a:hover.green {
+	background-image: url('green-balloon-glow.png');
+	color: #000000;
+}
+
+ul.balloon-links li a:hover.blue {
+	background-image: url('blue-balloon-glow.png');
+	color: #000000;
+}
+
+div.balloon-navbar {
+	float: right;
+}
+
+div.balloon-header {
+	text-align: center;
+}
+
+div.balloon-container {
+	margin: 60px auto;
+	width: 760px;
+}
+
+div.balloon-main {
+	background-color: #AACCFF;
+	float: left;
+	text-align: center;
+	height: 520px;
+	width: 760px;
+}
+
+div.balloon-sub {
+	padding: 20px 20px 20px 20px;
+}

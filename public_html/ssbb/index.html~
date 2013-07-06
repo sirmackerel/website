@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+<title>KCECH 2010 Super Smash Brothers Tournament</title>
+<link rel="stylesheet" href="ssbmstyle.css">
+</head>
+
+<body>
+
+<img style="position: absolute; top: 9px" src="roster.jpg">
+
+<div style="position: absolute; top: 570px; left: 175px">
+Welcome to the home page for the 2010 Kings Court English College House Super Smash Brothers Brawl Tournament (or KCECH Smash Brothers Tourney for short)! Click on the links in the top left navigation bar for information about the event, rules, and how to <a href="signup.html">sign up!</a>
+<br>Feel free to send any questions to <a href="mailto:bacchus@stwing.upenn.edu">bacchus@stwing.upenn.edu</a>.
+</div>
+
+<ul class="navbar" style="position: absolute; top: 10px">
+        <li><a href="index.html">Tournament Home Page</a>
+	<li><a href="rules.html">Information and Rules</a>
+	<li><a href="signup.html">Sign-Up!</a>
+	<li><a href="volunteer.html">Want to lend equipment?</a>
+	<li><a href="directions.html">How to get here</a>
+	<li><a href="http://www.stwing.upenn.edu">What is STWing?</a>
+</ul>
+
+<div style="position: absolute; left: 35px; top: 290px; font-size:120%">Vital Stats</div>
+
+<ul class="statbar" style="position: absolute; top: 320px">
+  <li>Time-<br>Saturday<br>Nov. 6th @ 7PM</li>
+  <li>Place-<br>1938 Lounge<br>(in KCECH)</li>
+  <li>Game-<br>Super Smash Brothers Brawl</li>
+  <li>Tourneys-<br>Singles and<br>Doubles!</li>
+  <li>Format-<br>3-stock Double<br> Elimination</li>
+</ul>
+
+</body>
+
+</html>

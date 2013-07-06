@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>JPF Online Submission Form</title>
+<script language="JavaScript">
+  <!--
+      function validate() {
+      if (document.upload_form.email.value == "") {
+      window.alert("You need to put your email down.");
+      return false;
+      } else {
+      return true;
+      }
+}
+//-->
+</script>
+</head>
+<body>
+
+  <table align=center>
+    <form method=post enctype="multipart/form-data" action="upload_handler.php" name="upload_form" onSubmit = "return validate();">
+      <p>
+	<tr>
+	  <td colspan=2><h3>Signup Form</h3></td>
+	</tr>
+	<tr>
+	  <td>Name (Last, First): </td>
+	  <td><input type=text name=name></td>
+	</tr>
+	<tr>
+	  <td>E-mail:</td>
+	  <td> <input type=text name=email></td>
+	</tr>
+	
+	<tr>
+	  <td>Phone Number:</td>
+	  <td><input type=text name=phone></td>
+	</tr>
+	<tr>
+	  <td>Participating in the singles tourney? (y/n): </td>
+	  <td> <input type=text name=singles_tourney> </td>
+	</tr>
+	<tr>
+	  <td>Participating in the doubles tourney? (y/n): </td>
+	  <td> <input type=text name=doubles_tourney> </td>
+	</tr>
+	<tr>
+	  <td>Doubles partners' name (Last, First): </td>
+	  <td> <input type=text name=doubles_name> </td>
+	<br/>
+	<tr>
+	  <td><input type="submit" value="Submit Application"><br/><br/>
+	</tr>
+    </form>
+</table>
+
+</body>
+</html>

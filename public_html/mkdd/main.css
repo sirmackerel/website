@@ -1,0 +1,101 @@
+body {
+    background-color: #BBBBFF;
+    font-family: helvetica, arial;
+    font-size: 62.5%
+}
+
+a.mkdd-larger-map {
+    color: #CC0000;
+    position: absolute;
+}
+
+img.mkdd-banner {
+    height: auto;
+    position: absolute;
+    width: 50em;
+}
+
+input.mkdd-button {
+    background-color: #FFBBBB;
+}
+
+div.mkdd-welcome {
+    font-size: 130%;
+    position: absolute;
+    top: 28em;
+}
+
+div.mkdd-tab {
+    background-color: #BBBBFF;
+    border-top-color: #000000;
+    border-top-style: solid;
+    border-top-width: 0.2em;
+    bottom: 2em;
+    font-size: 170%;
+    left: 1.95em;
+    padding: 2em;
+    position: absolute;
+    width: 50em;
+    top: 3em;
+}
+
+div.mkdd-tab-hidden {
+    display: none;
+}
+
+ul.mkdd-vitals {
+    background-color: #FF7777;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0.2em;
+    color: #FFFFFF;
+    font-size: 210%;
+    left: 47em;
+    list-style-type: none;
+    padding: 0.5em;
+    position: absolute;
+    top: 1.2em;
+    width: 8em;
+}
+
+ul.mkdd-vitals li {
+    background-color: #7777FF;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 0.2em;
+    padding: 0.2em;
+}
+
+div.mkdd-sidebar {
+    font-size: 170%;
+    position: absolute;
+}
+
+ul.mkdd-tabs {
+    list-style-type: none;
+}
+
+ul.mkdd-tabs li {
+    display: inline;
+}
+
+ul.mkdd-tabs li a {
+    background-color: #FFBBBB;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0.2em;
+    border-bottom: none;
+    color: #000000;
+    font-size: 120%;
+    padding: 0.3em;
+    text-decoration: none;
+}
+
+vul.mkdd-tabs li a:hover {
+    font-weight: bold;
+}
+
+ul.mkdd-tabs li a.selected {
+    background-color: #BBBBFF;
+    padding: 0.5em 0.3em 0.3em 0.3em;
+}

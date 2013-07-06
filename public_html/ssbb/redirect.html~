@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+<title>KCECH 2010 Super Smash Brothers Tournament</title>
+<link rel="stylesheet" href="ssbmstyle.css">
+</head>
+
+<body>
+
+<div style="position: absolute; top: 10px; left: 175px">
+The KCECH Smash Brothers Tourney will be held on Saturday, November 6th @ 7PM in the 1938 Lounge (click <a href="index.html">here</a> for directions). 
+There will be both a Super Smash Brothers Brawl singles tournament and a doubles tournament. 
+<br><br>The following are the rules we will use for both the singles and doubles tournaments:
+<ul>
+<li>Single elimination, 1 match, 3 stocks, 8 minute time limit</li>
+<li>All items turned off</li>
+<li>Gentleman's rule for stage selection: If both parties can agree on a stage, then that stage will be played. If the two parties cannot come to an agreement in a timely fashion, then a random stage will be chosen from the following list:<ul><li>Battlefield</li><li>Yoshi's Island</li><li>Smashville</li><li>Final Destination</li><li>Castle Siege</li><li>Pokemon Stadium (Melee)</li><li>Lylat Cruise</li>
+</ul>
+<li>If there is a controller malfunction detected during the match, the match will be restarted.</li>
+<li>Extending Meta Knight's Dimensional Cape is banned</li>
+<li>Stalling is banned (i.e. using chain grabs against a wall beyond 300%, using Sonic's Neutral B repeatedly underneath a stage)</li>
+<li>Purposefully freezing an opponent is banned.</li>
+<li>Either of the above three actions or doing anything that prevents the match from completing will result in instant disqualification.</li>
+<li>If a party is not present for a match, then other matches will be scheduled (when possible). However, if either a) four other matches have been scheduled OR b) there are no other matches left to schedule and 10 minutes pass, then the missing party will be disqualified.</li>
+</ul>
+<br>
+Additional rules for the doubles tournament are below:
+<ul>
+<li>Friendly fire is turned off</li>
+<li>Stock sharing is allowed (i.e. if one party member dies first, he or she is allowed to take stocks from the surviving party member when possible)</li>
+</ul>
+<br>Feel free to send any questions to <a href="mailto:bacchus@stwing.upenn.edu">bacchus@stwing.upenn.edu</a>.
+</div>
+
+<ul class="navbar" style="position: absolute; top: 10px">
+        <li><a href="index.html">Tournament Home Page</a>
+	<li><a href="rules.html">Information and Rules</a>
+	<li><a href="signup.html">Sign-Up!</a>
+	<li><a href="volunteer.html">Want to lend equipment?</a>
+	<li><a href="directions.html">How to get here</a>
+	<li><a href="http://www.stwing.upenn.edu">What is STWing?</a>
+</ul>
+
+<div style="position: absolute; left: 35px; top: 290px; font-size:120%">Vital Stats</div>
+
+<ul class="statbar" style="position: absolute; top: 320px">
+  <li>Time-<br>Saturday<br>Nov. 6th @ 7PM</li>
+  <li>Place-<br>1938 Lounge<br>(in KCECH)</li>
+  <li>Game-<br>Super Smash Brothers Brawl</li>
+  <li>Tourneys-<br>Singles and<br>Doubles!</li>
+  <li>Format-<br>3-stock Single<br> Elimination</li>
+</ul>
+
+</body>
+
+</html>

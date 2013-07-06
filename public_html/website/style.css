@@ -1,0 +1,181 @@
+body {
+	background-color: #000011;
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 120%;
+}
+
+div.megaten-top-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 70%;
+}
+
+a:link {
+	color: #AAFFAA;
+}
+
+a:visited {
+	color: #AAFFAA;
+}
+
+h1.megaten-name {
+	left: 5em;
+	position: absolute;
+	top: 0.2em;
+}
+
+img.megaten-pic {
+	height: 26.4em;
+    left: 24em;
+	position: absolute;
+}
+	
+ul.megaten-stat-names {
+	color: #AAFFFF;
+	list-style-type: none;
+	margin: 0em;
+	padding: 0em;
+}
+
+ul.megaten-stat-nums {
+	left: 3em;
+	list-style-type: none;
+	margin: 0em;
+	padding: 0em;
+	position: absolute;
+	top: 0.3em;
+}
+
+ul.megaten-links {
+	list-style-type: none;
+	position: absolute;
+}
+
+ul.megaten-links li {
+	background-color: #555577;
+	margin: 0.2em;
+	text-align: center;
+	width: 11em;
+}
+
+ul.megaten-links li a {
+    color: #FFFFFF;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul.megaten-links li a:hover {
+    background-color: #8888FF;
+}
+
+ul.megaten-stat-bar {
+	display: inline;
+	font-size: 0.7em;
+	list-style-type: none;
+	margin: 0em;
+	padding: 0em;
+}
+
+ul.megaten-stat-bar li {
+	background-color: #FFAAAA;
+	color: #FFAAAA;
+	float: left;
+	margin-right: 0.2em;
+	width: 0.5em;
+}
+
+ul.megaten-stat-bar li  a{
+	display: block;
+}
+
+div.megaten-level {
+	white-space: pre;
+}
+
+div.megaten-hp {
+	color: #FFAAAA;
+	white-space: pre;
+}
+
+div.megaten-healthbar {
+	border-bottom: solid 0.2em #FFFFAA;
+	color: #FFFFFF;
+	display: inline;
+	font-weight: bold;
+	position: relative;
+	top: -0.4em;
+	white-space: pre;
+}
+
+div.megaten-manabar {
+	border-bottom: solid 0.2em #CCCCFF;
+	color: #FFFFFF;
+	display: inline;
+	font-weight: bold;
+	position: relative;
+	top: -0.4em;
+	white-space: pre;
+}
+
+div.megaten-mp {
+	color: #AAAAFF;
+	display: inline;
+}
+
+div.megaten-level-nums {
+	display: inline;
+	font-weight: bold;
+	position: relative;
+	top: 0.2em;
+}
+
+div.megaten-stat-bar-container {
+	position: absolute;
+	left: 4.5em;
+	top: 0.3em;
+}
+
+div.megaten-right-links {
+	left: 11.2em;
+    position: absolute;
+}
+
+div.megaten-topstats-container {
+	background-color: #000022;
+	padding-bottom: 0.1em;
+	padding-top: 0.1em;
+	position: relative;
+    width: 21em;
+}
+
+div.megaten-content-container {
+	background-color: #000022;
+	height: 20em;
+	overflow: auto;
+	width: 23em;
+}
+
+div.megaten-stats-container {
+	background-color: #000011;
+	padding-top: 0.1em;
+	position: relative;
+	top: 1em;
+    width: 21em;
+}
+
+div.megaten-links-container {
+	height: 10em;
+	left: -2em;
+	position: relative;
+	width: 22em;
+}
+
+div.megaten-infopage {
+	float: left;
+	left: 1em;
+    position: relative;
+	width: 20em;
+}
