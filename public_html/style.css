@@ -8,8 +8,7 @@ body {
 div.megaten-top-container {
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    width: 70%;
+    width: 750px;
 }
 
 a:link {
@@ -27,9 +26,8 @@ h1.megaten-name {
 }
 
 img.megaten-pic {
-	height: 26.4em;
-    left: 24em;
-	position: absolute;
+       float: right;
+       width: 300px;
 }
 	
 ul.megaten-stat-names {
@@ -48,26 +46,25 @@ ul.megaten-stat-nums {
 	top: 0.3em;
 }
 
-ul.megaten-links {
-	list-style-type: none;
-	position: absolute;
+table.megaten-links {
+	border-collapse: separate;
+	border-spacing: 0.3em;
 }
 
-ul.megaten-links li {
+table.megaten-links tr td {
 	background-color: #555577;
-	margin: 0.2em;
 	text-align: center;
 	width: 11em;
 }
 
-ul.megaten-links li a {
-    color: #FFFFFF;
+table.megaten-links tr td a {
+  	color: #FFFFFF;
 	display: block;
 	text-decoration: none;
 	font-weight: bold;
 }
 
-ul.megaten-links li a:hover {
+table.megaten-links tr td a:hover {
     background-color: #8888FF;
 }
 
@@ -138,9 +135,10 @@ div.megaten-stat-bar-container {
 	top: 0.3em;
 }
 
-div.megaten-right-links {
+div.megaten-layout-info {
 	left: 11.2em;
-    position: absolute;
+    	position: relative;
+	width: 11.2em;
 }
 
 div.megaten-topstats-container {
@@ -166,16 +164,9 @@ div.megaten-stats-container {
     width: 21em;
 }
 
-div.megaten-links-container {
-	height: 10em;
-	left: -2em;
-	position: relative;
-	width: 22em;
-}
-
 div.megaten-infopage {
 	float: left;
 	left: 1em;
-    position: relative;
+        position: relative;
 	width: 20em;
 }
